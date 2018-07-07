@@ -16,5 +16,10 @@
     "repository": "AICP/external_magisk-prebuilt",
     "target_path": "external/magisk-prebuilt",
     "branch": "p9.0"
+ },
+ {
+    "repository": "PixelExperience-Devices/vendor_MiuiCamera",
+    "target_path": "vendor/MiuiCamera",
+    "branch": "pie-whyred"
  }
 ]

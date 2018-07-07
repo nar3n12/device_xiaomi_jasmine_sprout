@@ -28,6 +28,9 @@ $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 # Inherit some common AOSiP stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
+# Inherit from custom vendor
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 PRODUCT_NAME := aosip_jasmine_sprout
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := jasmine_sprout
