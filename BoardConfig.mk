@@ -250,5 +250,10 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
+# TWRP Support
+ifeq ($(BUILD_TWRP),true)
+include $(DEVICE_PATH)/twrp.mk
+endif
+
 # inherit from the proprietary version
 -include vendor/xiaomi/jasmine_sprout/BoardConfigVendor.mk
